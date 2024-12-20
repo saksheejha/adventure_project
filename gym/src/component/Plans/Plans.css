@@ -1,0 +1,52 @@
+.plans-containers{
+    margin-top: -4rem;     
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    position: relative;
+}
+.plans-blur-1{
+    width: 32rem;
+    height: 23rem;
+    top: 6rem;
+    left: 0rem;
+}
+.plans-blur-2{
+    width: 32rem;
+    height: 23rem;
+    top: 10rem;
+    right: 0rem;
+}
+
+
+.plans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+}
+.plan{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    color: white;
+    gap: 2rem;
+    padding: 1.5rem;
+    width: 15rem;
+
+}
+
+.plan:nth-child(2){
+    background-color: orange;
+    transform: scale(1.1);
+
+
+}
+.plan>svg{
+    fill:orange;
+    width: 2rem;
+    height: 2rem; 
+ }
+ 
